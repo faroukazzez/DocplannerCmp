@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+.services{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+.Box{
+    margin: 10px;
+    padding: 10px ;
+    border-radius: 10px;
+    height: 412px;
+    width: 500px;
+    position: relative;
+    color: honeydew;
+    font-size: 25px;
+    
+}
+.Box img{
+    width: 398px;
+    
+}
+.Box-gr{
+background-color: #00C3A5;
+overflow: hidden;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.Box-bl{
+    background-color: #3D83DF;
+    overflow: hidden;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.country-btn{
+    font-size: 25px; 
+    border-radius: 4px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #333;
+    background: #fff;
+    font-weight: 10;
+    letter-spacing: .04em;
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.image-flow{
+    display: flex;
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.brands{
+    display: flex;
+    margin:0 10% ;
 }
+.brands-logos{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.brands-logos li{
+    width: 200px;
+    padding: 0 20px;
+    font-size: 1rem;
+}
+.choose-country{
+    min-width: 190px;
+}
+.brands h1{
+    color:#00C3A5 ;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.main-footer{
+    padding: 40px;
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.improve{
+    color: #00C3A5;
+}.more-than{
+    color: grey;
+}
+ .footer-txt{
+     color: grey;
+     padding-top: 40px;
+     text-align: center;
+     font-size: 0.75em;
+ }

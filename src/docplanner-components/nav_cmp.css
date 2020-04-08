@@ -1,0 +1,66 @@
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color: white;
+     
+}
+.logo-docplanner{
+        width: 260px;
+        padding: 20px;  
+      }
+.nav-menu {
+    display: flex; 
+    align-items: center;  
+    
+}
+.navigation{
+  padding: 20px;
+  
+}
+.navigation a{
+  text-decoration: none;
+  color: #ABABAB;
+}
+.logo{
+    padding: 2px;
+}
+.nav-name{
+    cursor: pointer;
+}.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 3px rgb(236, 235, 235) solid;
+}.dropdown-content a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+      background-color: #f1f1f1;
+      color: #00C3A5;
+      
+    }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover, .navmenu:hover{
+    color:#00C3A5;
+  }
+  .dropdown-content:hover{
+color:#00C3A5 ;
+  }
